@@ -1,0 +1,30 @@
+* {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Coiny', cursive;
+	border-color: red;
+	border-style: solid;
+	border-width: 1px; 	
+}
+
+p {
+	background-color: yellow;
+	color: blue;
+	font-size: 16px;
+	line-height: 150%; /* tamanho da altura de cada linha */
+	letter-spacing: 2px; /* tamanho do espaço entre cada letra */
+	word-spacing: 10px; /* tamanho do espaço entre cada palavra */
+	text-indent: 60px; /* tamanho da margem da primeira linha do texto */	
+}
+	
+h1 {
+	color: #333;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	background-image: url('https://www.pptgrounds.com/wp-content/uploads/2016/06/Modern-Floral-Powerpoint-Backgrounds.jpg'); 
+	height:400px;
+}
