@@ -1,0 +1,73 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{	
+	/*background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-color: red;
+	background-position: top center;
+	*/	
+	
+	background: #ddd url(../img/background.jpg) top center no-repeat;
+	
+}
+
+h1 {
+	background-color: #F2EDED;
+	padding-top: 20px; /* espaçamento entre conteudo e borda */
+	padding-right: 5px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	
+	/* padding: 20px 5px; */
+	/* padding: 20px 5px 20px 5px; */
+	/* padding: 20px 5px 20px; */
+	/* seta sempre no sentido horário, primeiro top, right, bottom, left */
+	
+	
+	
+	margin: 0 auto;
+	
+	/*margin-top: 40px;
+	margin-right: 60px;
+	margin-bottom: 80px;
+	margin-left: 100px;*/	
+	
+	height: 300px;
+	width: 300px;
+	
+	float: left;
+	
+}
+
+p{
+	font-size: 12px;
+	color: #333;
+	border: 1px solid red;
+}
+
+p {
+	line-height: 120%; /* tamanho da altura de cada linha */
+	letter-spacing: 2px; /* tamanho do espaço entre cada letra */
+	word-spacing: 8px; /* tamanho do espaço entre cada palavra */
+	text-indent: 30px; /* tamanho da margem da primeira linha do texto */
+	text-align: justify;
+	text-transform: uppercase; /* capitalize - primeira maiuscula/ lowercase */
+	
+	height: 300px;
+	width: 300px;
+	
+	float: left;
+	
+}
+
+
+
+img{
+	height: 300px;
+	width: 300px;
+	
+	float: left;	
+}

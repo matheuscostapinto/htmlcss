@@ -1,0 +1,61 @@
+<html>
+
+	<head>
+		<meta charset="UTF-8"/>
+		<link href="css/form.css" rel="stylesheet"/>
+		
+		<script>
+			
+			function mundo(){
+			
+				if (1 == 1) {
+					console.log("OK OK OK";				
+				} else {
+					console.log("DEU ERRO");
+				
+				}
+			
+			}
+			
+		</script>
+		
+		
+	</head>
+	
+	<body>
+		<h1> Formulários </h1>
+		
+		<!-- method = GET(passa informação pela url || POST -->
+		<!-- action = VAZIO -> mesma página || Define outra página -->
+		<form method="POST" action="" enctype="multipart/form-data">
+
+			<div>
+				<label for="nome">Nome:</label>
+				<input type="text" name="nome" id="nome"/>
+			</div>
+
+			<div>
+				<label>Email:</label>
+				<input type="text" name="email" />
+			</div>
+			
+			<div>
+				<label>Senha:</label>
+				<input type="password" name="senha" />
+			</div>
+			
+			<!-- enctype = "multipart/form-data" -->
+			<div>
+				<label>Arquivo:</label>
+				<input type="file" name="arquivo"/>			
+			</div>
+			
+			<div>
+				<input type="submit" value="SALVAR" />
+			</div>
+		
+		</form>	
+		
+	</body>
+
+</html>

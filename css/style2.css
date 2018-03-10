@@ -1,0 +1,27 @@
+#titulo{
+	background: #ff0000;
+	padding: 20px 5px;
+	color: #fff;
+}
+
+#paragrafoNormal{
+	text-align: justify;
+	text-indent: 30px;
+	color: red;
+}
+
+.minhaborda{
+	border: 3px solid red;
+}
+
+.padding-20{
+	padding: 20px;
+}
+
+.padding-40{
+	padding: 20px;
+}
+
+#paragrafoAbertura > .minhaborda{
+	margin: 200px;
+}
