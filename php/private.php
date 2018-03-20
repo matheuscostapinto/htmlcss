@@ -3,4 +3,8 @@
 include_once 'funcionario.php';
 
 $pedro = new Funcionario;
-$pedro->salario = 'Oitocentos e setenta e seis';
+// atribui novo salário
+$pedro->setSalario(876);
+ 
+// obtém o Salário
+echo 'Salário : (R$) ' . $pedro->getSalario();

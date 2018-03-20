@@ -4,5 +4,24 @@ class Funcionario
 	private $codigo;
 	public $nome;
 	private $nascimento;
-	private $salario;
+	protected $salario;
+	
+	/***
+	* método setSalario
+	* atribui o parâmetro $salario à propriedade $salario */
+	function setSalario($salario)
+	{ // verifica se é numérico e positivo
+		if (is_numeric($salario) and ($salario > 0))
+		{
+			$this->salario = $salario;
+		}
+	} 
+	 
+	/***
+	* método getSalario
+	* retorna o valor da propriedade $salario */
+	function getSalario()
+	{
+		return $this->salario;
+	}	
 } 
